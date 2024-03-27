@@ -59,9 +59,8 @@ void display() {
     glLoadIdentity();
     gluLookAt(0.0, 5.0, 0.0,
               0.0, 0.0, 0.0,
-              0.0, 0.0, 1.0);
+              0.0, 0.0, -1.0);
     glPushMatrix();
-    glRotatef(teapotTetha, 0.0, 1.0, 0.0);
     displayTeapot();
     glPopMatrix();
 
